@@ -1,0 +1,14 @@
+ <p-menubar [model]="menuItems" (click)="setActive($event)">
+
+  <ng-template pTemplate="start">
+    <h1>Story Time</h1>
+  </ng-template>
+
+  <ng-template pTemplate="end">
+    <span class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input type="text" pInputText class="p-inputtext-sm" placeholder="Search" />
+    </span>
+   </ng-template>
+
+ </p-menubar>
